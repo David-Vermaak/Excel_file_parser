@@ -94,7 +94,7 @@ def info():
 def clear_window():
     # Destroy everything except Menu, content frame, and boolian values
     for widget in content_frame.winfo_children():
-        if widget != Menu_button and widget != Info_button and widget != Exit_button and widget != fund_designation and widget != switch and widget != content_frame:
+        if widget != Menu_button and widget != Info_button and widget != Exit_button and widget != content_frame:
             widget.destroy()
 
 
